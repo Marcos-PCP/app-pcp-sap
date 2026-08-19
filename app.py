@@ -172,7 +172,7 @@ def processar_planilha_pcp(caminho_arquivo, nome_montagem_final=None):
 st.set_page_config(page_title="PCP | Integrador SAP", layout="centered", page_icon="⚙️")
 
 st.title("⚙️ Gerar estrutura ➔ SAP")
-st.markdown("Faça o upload da planilha com as informações do Solid."))
+st.markdown("Faça o upload da planilha com as informações do Solid.")
 
 arquivo_upload = st.file_uploader("1. Selecione a planilha (.xlsx)", type=["xlsx"])
 montagem_final = st.text_input("2. Código da Montagem Final (Opcional)", placeholder="Ex: FSK-1700")
